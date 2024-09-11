@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Store</title>
+</head>
+<body>
+  <header>
+  
+    <nav>
+        <ul>
+                <li><a href="index.html" target="_self">Home</a></li>
+                <li><a href="cpu.html" target="_self">CPU</a></li>
+                <li><a href="motherboards.html" target="_self">Motherboards</a></li>
+                <li><a href="gpu.html" target="_self">Graphics Cards</a></li>
+                <li><a href="forms.html" target="_self">Contact US</a></li>
+        </ul>
+    </nav>
+
+    <section id="videosample">
+      <video width="955" playsinline autoplay loop muted controls>
+          <source src="media/rtx.mp4" type="video/mp4">
+      </video>
+  </section>
+  </header>
+  
+  <main>
+        <!--Beginning of form element -->
+        <form action="/submit" method="post">
+            <!--label and text input field-->
+            <label for="username">Username</label>
+            <input type="text" id="username" placeholder="enter your Username">
+
+            <br> <!--adds a line break-->
+
+            <!--label and password input-->
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password">
+
+            <br>
+
+            <!--label and email input field-->
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="example@example.com">
+
+            <br>
+            <input type="submit" value="submit">
+
+            <input type="reset" value="reset">
+
+            <br>
+            
+            <label for="comments">Message Us</label>
+
+            <br>
+
+            <textarea id="comments" name="Message Us" rows="4" cols="50"></textarea></form>
+  </main>
+  <footer>
+    <p>&copy;Copyright 2024 Alvaro Pulido Productions|<a href="https://github.com/apulido08" target="_blank">Github"</a></p>
+  </footer>  
+</body>
+</html>
